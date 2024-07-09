@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "draw_circle = robot_controller.draw_circle:main"
+            "draw_circle = robot_controller.draw_circle:main",
+            "pose_subscriber = robot_controller.pose_subscriber:main"
         ],
     },
 )
